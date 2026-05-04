@@ -6,7 +6,6 @@ A minimal Retrieval-Augmented Generation (RAG) system that answers user question
 grounded in a PDF knowledge base. Built entirely in a single Jupyter Notebook with
 a Gradio UI for live interaction.
 
----
 
 ## Project Structure
 
@@ -20,7 +19,6 @@ rag-project/
 └── README.md
 ```
 
----
 
 ## Tech Stack
 
@@ -36,7 +34,6 @@ rag-project/
 | Orchestration   | LangChain LCEL pipe syntax                  |
 | UI              | Gradio — runs inside Jupyter Notebook       |
 
----
 
 ## Setup Steps
 
@@ -70,7 +67,6 @@ http://127.0.0.1:7860
 ```
 Open in browser → type your question → click Submit.
 
----
 
 ## Notebook Cell Guide
 
@@ -88,7 +84,6 @@ Open in browser → type your question → click Submit.
 
 > **On restart:** Skip Cell 5, run Cell 5b instead — avoids re-indexing.
 
----
 
 ## requirements.txt
 
@@ -105,7 +100,6 @@ ollama
 requests
 ```
 
----
 
 ## How RAG Works (Simple Explanation)
 
@@ -127,7 +121,6 @@ The LLM is instructed to answer ONLY from retrieved context.
 If the answer is not found it responds: "I don't know."
 This prevents hallucination — called **Grounding**.
 
----
 
 ## Repository Access
 
