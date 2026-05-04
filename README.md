@@ -131,7 +131,7 @@ This prevents hallucination — called **Grounding**.
 
 ## Repository Access
 
-GitHub: [your-github-link-here]
+GitHub: [https://github.com/amarjeet-26/rag-project]
 
 Reviewers:
 - jose-claudio-calderon
