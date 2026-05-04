@@ -1,4 +1,4 @@
-# RAG System — Take-Home Project
+# RAG System — Q&A
 
 ## What This Is
 
