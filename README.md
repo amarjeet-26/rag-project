@@ -26,7 +26,7 @@ rag-project/
 |-----------------|---------------------------------------------|
 | Knowledge Base  | KB_PCAI.pdf (3-page PDF)                    |
 | Document Loader | PyPDFLoader (LangChain)                     |
-| Chunking        | RecursiveCharacterTextSplitter (300 / 20)   |
+| Chunking        | RecursiveCharacterTextSplitter (300 / 50)   |
 | Embeddings      | OllamaEmbeddings — nomic-embed-text (768d)  |
 | Vector Store    | ChromaDB — persisted locally                |
 | Retrieval       | Similarity search, TOP_K = 3                |
